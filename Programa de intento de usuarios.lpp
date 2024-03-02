@@ -1,0 +1,16 @@
+Entero a, clave
+Cadena [20] Usuario
+inicio
+	para a<-1 hasta 3 haga
+		Escriba "Intento", a
+		llamar nueva_linea
+		Escriba "Ingrese el usuario"
+		lea Usuario
+		si (Usuario = "camilo") entonces
+		a <- 3
+		escriba "Lo lograste prro"
+		sino
+		escriba "intentad dnv"
+		fin si
+	fin para
+fin

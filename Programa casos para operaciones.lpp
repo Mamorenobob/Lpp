@@ -1,0 +1,62 @@
+entero numero, numero1, resultado, contador
+caracter letra
+cadena [10] sancho
+inicio
+	
+	
+	escriba "digite una de las opciones de su preferencia"
+	llamar nueva_linea
+	escriba "S para sumar R para resta D dormir y F en el chat"
+	contador <- 0
+	repita
+		
+		lea letra
+	
+		caso letra
+			'S','+': escriba "ingrese el primer numero"
+			llamar nueva_linea
+			lea numero
+			escriba "ingrese el segundo numero"
+			llamar nueva_linea
+			lea numero1
+			resultado <- numero+numero1
+			llamar nueva_linea
+			escriba "el resultado de la suma es: ",resultado
+			
+			'R','-': escriba "ingrese el primer numero"
+			llamar nueva_linea
+			lea numero
+			escriba "ingrese el segundo numero"
+			llamar nueva_linea
+			lea numero1
+			resultado <- numero-numero1
+			llamar nueva_linea
+			escriba "el resultado de la suma es: ",resultado
+			'D','*': escriba "ingrese el primer numero"
+			llamar nueva_linea
+			lea numero
+			escriba "ingrese el segundo numero"
+			llamar nueva_linea
+			lea numero1
+			resultado <- numero*numero1
+			llamar nueva_linea
+			escriba "el resultado de la suma es: ",resultado
+			'F','/': escriba "ingrese el primer numero"
+			llamar nueva_linea
+			lea numero
+			escriba "ingrese el segundo numero"
+			llamar nueva_linea
+			lea numero1
+			resultado <- numero/numero1
+			llamar nueva_linea
+			escriba "el resultado de la suma es: ",resultado
+			contador <- contador+1
+		sino: escriba "No hiciste nada"
+		contador <- 3
+		
+		fin caso
+		contador<-contador+1
+	hasta (contador >= 3)
+
+
+fin

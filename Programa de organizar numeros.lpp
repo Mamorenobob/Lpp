@@ -1,0 +1,76 @@
+entero num1,num2,num3
+
+inicio
+	escriba "Programa para organizar los numeros"
+	llamar nueva_linea
+	escriba "Digite el primer numero: "
+	lea num1
+	llamar nueva_linea
+	escriba "Digite el segundo numero: "
+	lea num2
+	llamar nueva_linea
+	escriba "Digite el tercer numero: "
+	lea num3
+	si ((num1<num2) y (num2<num3)) entonces
+		escriba "El primer numero es: ",num1
+		llamar nueva_linea
+		escriba "El segundo numero es: ",num2
+		llamar nueva_linea
+		escriba "El tercer numero es: ",num3
+		llamar nueva_linea
+	sino
+		si ((num3<num2) y (num2<num1)) entonces
+		escriba "El primer numero es: ",num3
+		llamar nueva_linea
+		escriba "El segundo numero es: ",num2
+		llamar nueva_linea
+		escriba "El tercer numero es: ",num1
+		llamar nueva_linea
+		sino
+			si ((num2<num1) y (num1<num3)) entonces
+			escriba "El primer numero es: ",num2
+			llamar nueva_linea
+			escriba "El segundo numero es: ",num1
+			llamar nueva_linea
+			escriba "El tercer numero es: ",num3
+			sino
+				si ((num2<num3) y (num2<num1)) entonces
+					escriba "El primer numero es: ",num2
+					llamar nueva_linea
+					escriba "El segundo numero es: ",num3
+					llamar nueva_linea
+					escriba "El tercer numero es: ",num1
+				llamar nueva_linea		
+				sino
+					si ((num3<num1) y (num1<num2)) entonces
+					escriba "El primer numero es: ",num3
+					llamar nueva_linea
+					escriba "El segundo numero es: ",num1
+					llamar nueva_linea
+					escriba "El tercer numero es: ",num2
+					llamar nueva_linea	
+					sino
+						si ((num1<num3) y (num3<num2)) entonces
+						escriba "El primer numero es: ",num1
+						llamar nueva_linea
+						escriba "El segundo numero es: ",num3
+						llamar nueva_linea
+						escriba "El tercer numero es: ",num2                                                                                                                                                            
+						sino
+
+						fin si										
+					fin si				
+				fin si			
+			fin si		
+		fin si
+		
+	fin si
+	si((num1=num2) y (num2=num3))Entonces
+	escriba "El primer numero es: ",num1
+	llamar nueva_linea
+	escriba "El segundo numero es: ",num3
+	llamar nueva_linea
+	escriba "El tercer numero es: ",num2
+	sino
+	fin si   	
+fin

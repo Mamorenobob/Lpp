@@ -1,0 +1,16 @@
+ALGORITMO SumaDosNumeros
+    // Declaración de variables
+    REAL num1, num2, resultado
+
+    // Entrada de datos
+    ESCRIBIR "Ingrese el primer número: "
+    LEER num1
+    ESCRIBIR "Ingrese el segundo número: "
+    LEER num2
+
+    // Proceso de suma
+    resultado <- num1 + num2
+
+    // Salida de datos
+    ESCRIBIR "La suma de ", num1, " y ", num2, " es: ", resultado
+FIN ALGORITMO

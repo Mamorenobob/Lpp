@@ -1,0 +1,32 @@
+entero numero,limon,fila,columna, temporal
+arreglo [10] de entero coco
+inicio
+	escriba "ordenamiento de numeros metodo de burbuja"
+	llamar nueva_linea
+	escriba "ingrese los numeros a ordenar"
+	para limon <- 1 hasta 6 haga
+		lea coco[limon]
+		llamar nueva_linea
+	fin para
+	para limon <- 1 hasta 6 haga
+		escriba "en el indice: ",limon, "esta el numero ", coco[limon]
+		llamar nueva_linea
+	fin para
+	llamar nueva_linea
+	para fila<-1 hasta 6 haga
+		para columna <-1 hasta 6-fila haga
+			si (coco [columna]> coco[columna+1]) entonces
+				temporal <- coco[columna]
+				coco[columna]<-coco[columna+1]
+				coco[columna+1]<- temporal
+			fin si
+		fin para
+	fin para
+	llamar nueva_linea
+	escriba "los numeros ordenados quedaron asi :"
+	llamar nueva_linea
+	para numero <-1 hasta 6 haga
+		escriba "en el indice :[",numero,"]quedo el numero",coco[numero]
+		llamar nueva_linea
+	fin para
+fin

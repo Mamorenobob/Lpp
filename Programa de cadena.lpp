@@ -1,0 +1,23 @@
+Cadena [20] usuario
+entero a, clave
+caracter letra
+inicio
+	para a <- 1 hasta 10 haga
+		escriba "oportunidad numero",a
+		llamar nueva_linea
+		escriba "ingrese el usuario"
+		lea usuario
+		si (usuario = "maria") entonces
+			escriba "usuario correcto"
+			llamar nueva_linea
+		sino
+			escriba "desea confirmar?"
+			lea letra
+			si (letra = 'N') entonces
+				a <- 10
+			sino
+				escriba "Usuario incorrecto intentalo dnv"
+			fin si
+		fin si
+	fin para
+fin

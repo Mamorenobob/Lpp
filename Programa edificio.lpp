@@ -1,0 +1,764 @@
+entero pisos, oficina
+caracter empleado
+inicio
+	escriba "En un edifcio se encuentran los siguientes pisos: "
+	llamar nueva_linea
+	escriba "piso 1"
+	llamar nueva_linea
+	escriba "piso 2"	
+	llamar nueva_linea
+	escriba "piso 3"
+	llamar nueva_linea
+	escriba "piso 4"
+	llamar nueva_linea
+	escriba "piso 5"
+	llamar nueva_linea
+	escriba "piso 6"	
+	llamar nueva_linea
+	escriba "piso 7"
+	llamar nueva_linea
+	escriba "piso 8"
+	llamar nueva_linea
+	escriba "piso 9"
+	llamar nueva_linea
+	escriba "piso 10"
+	llamar nueva_linea
+	escriba "Cual de los siguientes pisos quiere ir?"
+	llamar nueva_linea
+	escriba "Cada piso tiene un total de 5 oficinas"
+	llamar nueva_linea
+	lea pisos
+	caso pisos
+		1:escriba "Te encuentras en el primer piso"
+			llamar nueva_linea
+			escriba "A que oficina desea ir? para poder ir a alguna de las oficinas solo eliga un numero del 1 al 5"
+			llamar nueva_linea
+			lea oficina
+			caso oficina
+				1:escriba "Accediste a la primera oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Andres"
+					'B':escriba "haz hido con el empleado Belga"
+					'C':escriba "haz hido con el empleado Carlos"
+					'D':escriba "haz hido con el empleado David"
+					'E':escriba "haz hido con el empleado Edgar"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				2:escriba "Accediste a la segunda oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Anderson"
+					'B':escriba "haz hido con el empleado Belen"
+					'C':escriba "haz hido con el empleado Cesar"
+					'D':escriba "haz hido con el empleado Ivan"
+					'E':escriba "haz hido con el empleado Ernesto"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				3:escriba "Accediste a la tercera oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Alejandro"
+					'B':escriba "haz hido con el empleado Bernal"
+					'C':escriba "haz hido con el empleado Mauro"
+					'D':escriba "haz hido con el empleado Alison"
+					'E':escriba "haz hido con el empleado Sara"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				4:escriba "Accediste a la cuarta oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Danna"
+					'B':escriba "haz hido con el empleado Valentina"
+					'C':escriba "haz hido con el empleado Rincon"
+					'D':escriba "haz hido con el empleado Viviana"
+					'E':escriba "haz hido con el empleado Johan"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				5:escriba "Accediste a la quinta oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Josue"
+					'B':escriba "haz hido con el empleado Gaby"
+					'C':escriba "haz hido con el empleado Dylan"
+					'D':escriba "haz hido con el empleado Ruben"
+					'E':escriba "haz hido con el empleado Samuel"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+			sino:escriba "fue al bano"
+			fin caso
+		2:escriba "Te encuentras en el segundo piso"
+			llamar nueva_linea
+			escriba "A que oficina desea ir? para poder ir a alguna de las oficinas solo eliga un numero del 1 al 5"
+			llamar nueva_linea
+			lea oficina
+			caso oficina
+				1:escriba "Accediste a la primera oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Andres"
+					'B':escriba "haz hido con el empleado Belga"
+					'C':escriba "haz hido con el empleado Carlos"
+					'D':escriba "haz hido con el empleado David"
+					'E':escriba "haz hido con el empleado Edgar"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				2:escriba "Accediste a la segunda oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Anderson"
+					'B':escriba "haz hido con el empleado Belen"
+					'C':escriba "haz hido con el empleado Cesar"
+					'D':escriba "haz hido con el empleado Ivan"
+					'E':escriba "haz hido con el empleado Ernesto"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				3:escriba "Accediste a la tercera oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Alejandro"
+					'B':escriba "haz hido con el empleado Bernal"
+					'C':escriba "haz hido con el empleado Mauro"
+					'D':escriba "haz hido con el empleado Alison"
+					'E':escriba "haz hido con el empleado Sara"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				4:escriba "Accediste a la cuarta oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Danna"
+					'B':escriba "haz hido con el empleado Valentina"
+					'C':escriba "haz hido con el empleado Rincon"
+					'D':escriba "haz hido con el empleado Viviana"
+					'E':escriba "haz hido con el empleado Johan"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				5:escriba "Accediste a la quinta oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Josue"
+					'B':escriba "haz hido con el empleado Gaby"
+					'C':escriba "haz hido con el empleado Dylan"
+					'D':escriba "haz hido con el empleado Ruben"
+					'E':escriba "haz hido con el empleado Samuel"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+			sino:escriba "fue al bano"
+			fin caso
+		3:escriba "Te encuentras en el tercer piso"
+			llamar nueva_linea
+			escriba "A que oficina desea ir? para poder ir a alguna de las oficinas solo eliga un numero del 1 al 5"
+			llamar nueva_linea
+			lea oficina
+			caso oficina
+				1:escriba "Accediste a la primera oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Andres"
+					'B':escriba "haz hido con el empleado Belga"
+					'C':escriba "haz hido con el empleado Carlos"
+					'D':escriba "haz hido con el empleado David"
+					'E':escriba "haz hido con el empleado Edgar"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				2:escriba "Accediste a la segunda oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Anderson"
+					'B':escriba "haz hido con el empleado Belen"
+					'C':escriba "haz hido con el empleado Cesar"
+					'D':escriba "haz hido con el empleado Ivan"
+					'E':escriba "haz hido con el empleado Ernesto"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				3:escriba "Accediste a la tercera oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Alejandro"
+					'B':escriba "haz hido con el empleado Bernal"
+					'C':escriba "haz hido con el empleado Mauro"
+					'D':escriba "haz hido con el empleado Alison"
+					'E':escriba "haz hido con el empleado Sara"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				4:escriba "Accediste a la cuarta oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Danna"
+					'B':escriba "haz hido con el empleado Valentina"
+					'C':escriba "haz hido con el empleado Rincon"
+					'D':escriba "haz hido con el empleado Viviana"
+					'E':escriba "haz hido con el empleado Johan"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				5:escriba "Accediste a la quinta oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Josue"
+					'B':escriba "haz hido con el empleado Gaby"
+					'C':escriba "haz hido con el empleado Dylan"
+					'D':escriba "haz hido con el empleado Ruben"
+					'E':escriba "haz hido con el empleado Samuel"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+			sino:escriba "fue al bano"
+			fin caso
+		4:escriba "Te encuentras en el cuarto piso"
+			llamar nueva_linea
+			escriba "A que oficina desea ir? para poder ir a alguna de las oficinas solo eliga un numero del 1 al 5"
+			llamar nueva_linea
+			lea oficina
+			caso oficina
+				1:escriba "Accediste a la primera oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Andres"
+					'B':escriba "haz hido con el empleado Belga"
+					'C':escriba "haz hido con el empleado Carlos"
+					'D':escriba "haz hido con el empleado David"
+					'E':escriba "haz hido con el empleado Edgar"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				2:escriba "Accediste a la segunda oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Anderson"
+					'B':escriba "haz hido con el empleado Belen"
+					'C':escriba "haz hido con el empleado Cesar"
+					'D':escriba "haz hido con el empleado Ivan"
+					'E':escriba "haz hido con el empleado Ernesto"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				3:escriba "Accediste a la tercera oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Alejandro"
+					'B':escriba "haz hido con el empleado Bernal"
+					'C':escriba "haz hido con el empleado Mauro"
+					'D':escriba "haz hido con el empleado Alison"
+					'E':escriba "haz hido con el empleado Sara"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				4:escriba "Accediste a la cuarta oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Danna"
+					'B':escriba "haz hido con el empleado Valentina"
+					'C':escriba "haz hido con el empleado Rincon"
+					'D':escriba "haz hido con el empleado Viviana"
+					'E':escriba "haz hido con el empleado Johan"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				5:escriba "Accediste a la quinta oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Josue"
+					'B':escriba "haz hido con el empleado Gaby"
+					'C':escriba "haz hido con el empleado Dylan"
+					'D':escriba "haz hido con el empleado Ruben"
+					'E':escriba "haz hido con el empleado Samuel"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+			sino:escriba "fue al bano"
+			fin caso
+		5:escriba "Te encuentras en el quinto piso"
+			llamar nueva_linea
+			escriba "A que oficina desea ir? para poder ir a alguna de las oficinas solo eliga un numero del 1 al 5"
+			llamar nueva_linea
+			lea oficina
+			caso oficina
+				1:escriba "Accediste a la primera oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Andres"
+					'B':escriba "haz hido con el empleado Belga"
+					'C':escriba "haz hido con el empleado Carlos"
+					'D':escriba "haz hido con el empleado David"
+					'E':escriba "haz hido con el empleado Edgar"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				2:escriba "Accediste a la segunda oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Anderson"
+					'B':escriba "haz hido con el empleado Belen"
+					'C':escriba "haz hido con el empleado Cesar"
+					'D':escriba "haz hido con el empleado Ivan"
+					'E':escriba "haz hido con el empleado Ernesto"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				3:escriba "Accediste a la tercera oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Alejandro"
+					'B':escriba "haz hido con el empleado Bernal"
+					'C':escriba "haz hido con el empleado Mauro"
+					'D':escriba "haz hido con el empleado Alison"
+					'E':escriba "haz hido con el empleado Sara"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				4:escriba "Accediste a la cuarta oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Danna"
+					'B':escriba "haz hido con el empleado Valentina"
+					'C':escriba "haz hido con el empleado Rincon"
+					'D':escriba "haz hido con el empleado Viviana"
+					'E':escriba "haz hido con el empleado Johan"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				5:escriba "Accediste a la quinta oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Josue"
+					'B':escriba "haz hido con el empleado Gaby"
+					'C':escriba "haz hido con el empleado Dylan"
+					'D':escriba "haz hido con el empleado Ruben"
+					'E':escriba "haz hido con el empleado Samuel"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+			sino:escriba "fue al bano"
+			fin caso
+		6:escriba "Te encuentras en el sexto piso"
+			llamar nueva_linea
+			escriba "A que oficina desea ir? para poder ir a alguna de las oficinas solo eliga un numero del 1 al 5"
+			llamar nueva_linea
+			lea oficina
+			caso oficina
+				1:escriba "Accediste a la primera oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Andres"
+					'B':escriba "haz hido con el empleado Belga"
+					'C':escriba "haz hido con el empleado Carlos"
+					'D':escriba "haz hido con el empleado David"
+					'E':escriba "haz hido con el empleado Edgar"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				2:escriba "Accediste a la segunda oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Anderson"
+					'B':escriba "haz hido con el empleado Belen"
+					'C':escriba "haz hido con el empleado Cesar"
+					'D':escriba "haz hido con el empleado Ivan"
+					'E':escriba "haz hido con el empleado Ernesto"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				3:escriba "Accediste a la tercera oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Alejandro"
+					'B':escriba "haz hido con el empleado Bernal"
+					'C':escriba "haz hido con el empleado Mauro"
+					'D':escriba "haz hido con el empleado Alison"
+					'E':escriba "haz hido con el empleado Sara"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				4:escriba "Accediste a la cuarta oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Danna"
+					'B':escriba "haz hido con el empleado Valentina"
+					'C':escriba "haz hido con el empleado Rincon"
+					'D':escriba "haz hido con el empleado Viviana"
+					'E':escriba "haz hido con el empleado Johan"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				5:escriba "Accediste a la quinta oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Josue"
+					'B':escriba "haz hido con el empleado Gaby"
+					'C':escriba "haz hido con el empleado Dylan"
+					'D':escriba "haz hido con el empleado Ruben"
+					'E':escriba "haz hido con el empleado Samuel"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+			sino:escriba "fue al bano"
+			fin caso
+		7:escriba "Te encuentras en el septimo piso"
+			llamar nueva_linea
+			escriba "A que oficina desea ir? para poder ir a alguna de las oficinas solo eliga un numero del 1 al 5"
+			llamar nueva_linea
+			lea oficina
+			caso oficina
+				1:escriba "Accediste a la primera oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Andres"
+					'B':escriba "haz hido con el empleado Belga"
+					'C':escriba "haz hido con el empleado Carlos"
+					'D':escriba "haz hido con el empleado David"
+					'E':escriba "haz hido con el empleado Edgar"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				2:escriba "Accediste a la segunda oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Anderson"
+					'B':escriba "haz hido con el empleado Belen"
+					'C':escriba "haz hido con el empleado Cesar"
+					'D':escriba "haz hido con el empleado Ivan"
+					'E':escriba "haz hido con el empleado Ernesto"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				3:escriba "Accediste a la tercera oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Alejandro"
+					'B':escriba "haz hido con el empleado Bernal"
+					'C':escriba "haz hido con el empleado Mauro"
+					'D':escriba "haz hido con el empleado Alison"
+					'E':escriba "haz hido con el empleado Sara"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				4:escriba "Accediste a la cuarta oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Danna"
+					'B':escriba "haz hido con el empleado Valentina"
+					'C':escriba "haz hido con el empleado Rincon"
+					'D':escriba "haz hido con el empleado Viviana"
+					'E':escriba "haz hido con el empleado Johan"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				5:escriba "Accediste a la quinta oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Josue"
+					'B':escriba "haz hido con el empleado Gaby"
+					'C':escriba "haz hido con el empleado Dylan"
+					'D':escriba "haz hido con el empleado Ruben"
+					'E':escriba "haz hido con el empleado Samuel"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+			sino:escriba "fue al bano"
+			fin caso
+		8:escriba "Te encuentras en el octavo piso"
+			llamar nueva_linea
+			escriba "A que oficina desea ir? para poder ir a alguna de las oficinas solo eliga un numero del 1 al 5"
+			llamar nueva_linea
+			lea oficina
+			caso oficina
+				1:escriba "Accediste a la primera oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Andres"
+					'B':escriba "haz hido con el empleado Belga"
+					'C':escriba "haz hido con el empleado Carlos"
+					'D':escriba "haz hido con el empleado David"
+					'E':escriba "haz hido con el empleado Edgar"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				2:escriba "Accediste a la segunda oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Anderson"
+					'B':escriba "haz hido con el empleado Belen"
+					'C':escriba "haz hido con el empleado Cesar"
+					'D':escriba "haz hido con el empleado Ivan"
+					'E':escriba "haz hido con el empleado Ernesto"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				3:escriba "Accediste a la tercera oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Alejandro"
+					'B':escriba "haz hido con el empleado Bernal"
+					'C':escriba "haz hido con el empleado Mauro"
+					'D':escriba "haz hido con el empleado Alison"
+					'E':escriba "haz hido con el empleado Sara"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				4:escriba "Accediste a la cuarta oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Danna"
+					'B':escriba "haz hido con el empleado Valentina"
+					'C':escriba "haz hido con el empleado Rincon"
+					'D':escriba "haz hido con el empleado Viviana"
+					'E':escriba "haz hido con el empleado Johan"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				5:escriba "Accediste a la quinta oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Josue"
+					'B':escriba "haz hido con el empleado Gaby"
+					'C':escriba "haz hido con el empleado Dylan"
+					'D':escriba "haz hido con el empleado Ruben"
+					'E':escriba "haz hido con el empleado Samuel"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+			sino:escriba "fue al bano"
+			fin caso
+		9:escriba "Te encuentras en el noveno piso"
+			llamar nueva_linea
+			escriba "A que oficina desea ir? para poder ir a alguna de las oficinas solo eliga un numero del 1 al 5"
+			llamar nueva_linea
+			lea oficina
+			caso oficina
+				1:escriba "Accediste a la primera oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Andres"
+					'B':escriba "haz hido con el empleado Belga"
+					'C':escriba "haz hido con el empleado Carlos"
+					'D':escriba "haz hido con el empleado David"
+					'E':escriba "haz hido con el empleado Edgar"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				2:escriba "Accediste a la segunda oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Anderson"
+					'B':escriba "haz hido con el empleado Belen"
+					'C':escriba "haz hido con el empleado Cesar"
+					'D':escriba "haz hido con el empleado Ivan"
+					'E':escriba "haz hido con el empleado Ernesto"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				3:escriba "Accediste a la tercera oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Alejandro"
+					'B':escriba "haz hido con el empleado Bernal"
+					'C':escriba "haz hido con el empleado Mauro"
+					'D':escriba "haz hido con el empleado Alison"
+					'E':escriba "haz hido con el empleado Sara"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				4:escriba "Accediste a la cuarta oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Danna"
+					'B':escriba "haz hido con el empleado Valentina"
+					'C':escriba "haz hido con el empleado Rincon"
+					'D':escriba "haz hido con el empleado Viviana"
+					'E':escriba "haz hido con el empleado Johan"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				5:escriba "Accediste a la quinta oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Josue"
+					'B':escriba "haz hido con el empleado Gaby"
+					'C':escriba "haz hido con el empleado Dylan"
+					'D':escriba "haz hido con el empleado Ruben"
+					'E':escriba "haz hido con el empleado Samuel"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+			sino:escriba "fue al bano"
+			fin caso
+		10:escriba "Te encuentras en el decimo piso"
+			llamar nueva_linea
+			escriba "A que oficina desea ir? para poder ir a alguna de las oficinas solo eliga un numero del 1 al 5"
+			llamar nueva_linea
+			lea oficina
+			caso oficina
+				1:escriba "Accediste a la primera oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Andres"
+					'B':escriba "haz hido con el empleado Belga"
+					'C':escriba "haz hido con el empleado Carlos"
+					'D':escriba "haz hido con el empleado David"
+					'E':escriba "haz hido con el empleado Edgar"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				2:escriba "Accediste a la segunda oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Anderson"
+					'B':escriba "haz hido con el empleado Belen"
+					'C':escriba "haz hido con el empleado Cesar"
+					'D':escriba "haz hido con el empleado Ivan"
+					'E':escriba "haz hido con el empleado Ernesto"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				3:escriba "Accediste a la tercera oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Alejandro"
+					'B':escriba "haz hido con el empleado Bernal"
+					'C':escriba "haz hido con el empleado Mauro"
+					'D':escriba "haz hido con el empleado Alison"
+					'E':escriba "haz hido con el empleado Sara"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				4:escriba "Accediste a la cuarta oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Danna"
+					'B':escriba "haz hido con el empleado Valentina"
+					'C':escriba "haz hido con el empleado Rincon"
+					'D':escriba "haz hido con el empleado Viviana"
+					'E':escriba "haz hido con el empleado Johan"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+				5:escriba "Accediste a la quinta oficina"
+					llamar nueva_linea
+					escriba "A que empleado desea dirigirse? Estan A,B,C,D,E"
+					lea empleado
+					llamar nueva_linea
+					caso empleado
+					'A':escriba "haz hido con el empleado Josue"
+					'B':escriba "haz hido con el empleado Gaby"
+					'C':escriba "haz hido con el empleado Dylan"
+					'D':escriba "haz hido con el empleado Ruben"
+					'E':escriba "haz hido con el empleado Samuel"
+					sino:escriba "no se encuentra el empleado"
+					fin caso
+			sino:escriba "fue al bano"
+			fin caso
+	sino:escriba "no accedio al edificio"
+	fin caso
+fin

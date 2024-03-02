@@ -1,0 +1,28 @@
+entero piso, numero1, numero2, resultado
+caracter oficina
+inicio
+	lea piso
+	caso(piso)
+		1:Escriba "Estoy en el piso 1"
+		2:Escriba "Ejercicio de varias opciones
+		llamar nueva_linea
+		escriba "Para suma ingrese S, resta R y divison D"
+		lea oficina
+		caso (oficina)
+			'S':escriba "Estoy en suma"
+			'R':caso
+			'D':escriba "ingrese el primer numero de la division"
+			llamar nueva_linea
+			lea numero1
+			escriba"ingrese el segundo numero de la division"
+			lea numero2
+			llamar nueva_linea
+			resultado <- numero1/numero2
+			escriba "el resultado de la division es: ",resultado
+			sino:escriba "entrada nose que dice xd"
+		fin caso
+		3:Escriba "Estoy en el piso 3"
+		4:Escriba "Estoy en el piso 4"
+	sino: Escriba "pongan atencion"
+	fin caso
+fin

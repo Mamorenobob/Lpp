@@ -1,0 +1,22 @@
+entero gana, pierde, nota
+real promedio, acumulado, ingresos
+caracter entrada
+inicio
+	acumulado <- 0
+	gana <- 0
+	pierde <- 0
+	ingresos <- 0
+	repita
+		lea nota
+		si (nota < 60) entonces
+			pierde <- pierde+1
+		sino
+			gana <- gana+1
+		fin si
+		total <- nota + acumulado
+		
+		escriba "Desea continuar? Digite S"
+		lea entrada
+	hasta (entrada ='S')
+	promedio <- acumulado/ingresos
+	escriba "El promedio de las notas es: ",promedio

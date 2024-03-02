@@ -1,0 +1,35 @@
+//me permita ingresar varias notas, y de esas notas que me diga cuando pierde y cuando gana, notas hasta 100, y minimo 1, si el numero es mayor o igual a 60 gana si es menor a 60 pierde
+entero numero, luz, acumula, nota, pierde, gana, ingresos, total
+caracter pancha, concha
+real promedio
+inicio
+	gana <- 0
+	pierde <- 0
+	ingresos <- 0
+	acumula <- 0
+	repita
+	escriba "ingrese la nota"
+	llamar nueva_linea
+	lea nota
+	
+	si (nota < 60) entonces
+		pierde <- pierde+1
+	sino
+		gana <- gana+1
+	fin si
+	total <- nota + acumula
+	acumula <- total
+
+	ingresos <- ingresos+1
+	promedio <- acumula / ingresos
+	escriba "Desea Continuar S/N"
+	lea pancha
+	hasta (pancha = 'N') o ( concha = 'S')
+	llamar nueva_linea
+	escriba "usted perdio " ,pierde," veces"
+	llamar nueva_linea
+	escriba "usted gano ",gana, " veces"
+	llamar nueva_linea
+	escriba "El promedio de las notas es: ",promedio
+fin
+	

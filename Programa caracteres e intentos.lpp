@@ -1,0 +1,44 @@
+caracter l1,l2,l3,l4,l5,l6,l7, casa
+entero numero, acumulado
+real base, altura, area
+inicio
+		acumulado <- 0
+		numero <- 0
+		repita
+		escriba "ingrese la clave"
+		llamar nueva_linea
+		lea l1
+		lea l2
+		lea l3
+		lea l4
+		lea l5
+		lea l6
+		lea l7
+
+
+		si ((l1 = 'c') y (l2 = 'a') y (l3 = 'r') y (l4 = 'a')y(l5 = 'c')y(l6 = 'o')y(l7 = 'l')) entonces
+		escriba "clave correcta"
+		llamar nueva_linea
+		escriba "ingrese el numero para la base del triangulo"
+		lea base
+		escriba "ingrese el numero para la altura del triangulo"
+		lea altura
+		area <- (base*altura) /2
+		llamar nueva_linea
+		numero <- 5
+	
+		escriba "El valor del area es: ",area
+		sino
+		escriba "clave incorrecta"
+		numero <- numero+1
+		acumulado <- numero+acumulado
+		llamar nueva_linea
+		escriba "intento ", numero
+		fin si
+	llamar nueva_linea
+
+
+
+	hasta(numero > 3)
+	escriba "no te quedan mas intentos"
+fin

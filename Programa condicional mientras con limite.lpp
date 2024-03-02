@@ -1,0 +1,17 @@
+entero numero, saco
+inicio
+	numero <- 5
+	
+	mientras (numero > 1) haga
+		escriba "anashe"
+		numero <- numero-1
+	fin mientras
+	escriba numero
+	llamar nueva_linea
+	para saco <- 1 hasta 5 haga
+		escriba "numero ", saco
+		llamar nueva_linea
+	fin para
+	numero <- 5
+
+fin

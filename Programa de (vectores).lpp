@@ -1,0 +1,37 @@
+arreglo [10] de caracter pollos
+arreglo [10] de caracter gallinas
+entero numero
+
+inicio
+	escriba "ingresa los numeros del vector"
+	llamar nueva_linea
+	para numero <- 1 hasta 5 haga
+		lea pollos[numero]
+		fin para
+		escriba "ingresa los numeros del vector"
+		llamar nueva_linea
+		para numero <- 1 hasta 5 haga
+		lea gallinas[numero]
+	fin para
+
+	escriba "IMPRESION DE LOS NUMEROS DEL VECTOR pollos"
+	llamar nueva_linea
+	para numero <-1 hasta 5 haga
+		escriba "pollos ",pollos[numero], " en el indice # [",numero,"]"
+		llamar nueva_linea
+		fin para
+		escriba "IMPRESION DE LOS NUMEROS DEL VECTOR gallinas"
+		llamar nueva_linea
+		para numero <-1 hasta 5 haga
+		escriba "gallinas ",gallinas[numero], " en el indice # [",numero,"]"
+		llamar nueva_linea
+		fin para
+		escriba "IMPRESION DE LOS NUMEROS DEL VECTOR gallinas y pollos"
+		llamar nueva_linea
+		para numero <-1 hasta 5 haga
+		escriba "pollos ",pollos[numero], " en el indice # [",numero,"]"
+		llamar nueva_linea
+		escriba "gallinas ",gallinas[numero], " en el indice # [",numero,"]"
+		llamar nueva_linea
+	fin para
+fin

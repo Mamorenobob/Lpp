@@ -1,0 +1,49 @@
+entero a
+inicio
+Escriba "La secuencia es:"
+llamar nueva_linea
+	para a <- 1 hasta 20 haga
+		llamar nueva_linea
+		Escriba a
+
+		si (a = 5) entonces
+		Escriba "Vas en el: "
+	
+	
+		sino
+		Escriba "adios"
+		fin si
+		
+			si (a = 10) entonces
+			Escriba "Vas en el: "
+	
+		
+		
+			sino
+			fin si
+				si (a = 15) entonces
+				Escriba "Vas en el: "
+			
+			
+			
+				sino
+				fin si
+		
+
+
+
+
+
+
+
+
+	fin para
+	Escriba "programa terminado"
+
+
+
+
+
+
+
+fin

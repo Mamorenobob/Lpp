@@ -1,0 +1,36 @@
+Entero clave, clave1, edad, numero
+Cadena [15] nombre
+inicio
+escriba "ingrese el nombre de usuario"
+lea nombre
+Escriba " Ingrese la contreseña"
+lea clave
+si ((nombre="camilo") y (clave = 123)) entonces
+	Escriba "Por favor digite su clave nuevamente prro :u"
+	lea clave1
+	si ((clave = 123) y (clave1 = 123)) entonces
+	Escriba "ingreso"
+	Escriba "Cual es su edad?"
+	lea edad
+		si (edad >= 14) entonces
+		Escriba "Ingresado prro"
+		sino
+		Escriba "Crezca niño puberto"
+		fin si		
+			
+	sino
+	Escriba "la clave segunda no es a la primera we"
+	fin si	
+
+sino
+Escriba "Vayase de aca"
+llamar nueva_linea
+llamar inicializar_Aleatorio()
+numero <- aleatorio()*2
+si (numero =1) entonces
+	Escriba "ganastes :3"
+sino
+	Escriba "perdiste we"
+fin si
+fin si
+fin

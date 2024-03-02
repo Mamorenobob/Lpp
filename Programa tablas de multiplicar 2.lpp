@@ -1,0 +1,33 @@
+entero numero, num1, acumulado, curso, coco, papaya
+inicio
+	para numero <- 1 hasta 10 haga
+		si (numero mod 2=0) entonces
+		curso <- 4
+		num1 <- 4
+		mientras ((num1 > 3) y (num1 < 8)) haga
+			para coco <- 1 hasta 3 haga
+				acumulado <- num1 * coco
+				llamar nueva_linea
+				escriba " ",num1, " por ",coco," es igual: ",acumulado
+			fin para
+			num1 <- num1+1
+		fin mientras
+		sino
+		llamar nueva_linea
+		para curso <- 10 hasta 15 haga
+			papaya <- 1
+			mientras (papaya <= 3) haga
+				acumulado <- papaya * curso
+
+				escriba " ",papaya," por ",curso," es igual a: ",acumulado
+				papaya <-papaya+1
+				llamar nueva_linea
+			fin mientras
+
+
+
+		fin para
+		fin si
+		llamar nueva_linea
+	fin para
+fin

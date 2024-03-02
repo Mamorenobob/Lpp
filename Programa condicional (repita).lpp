@@ -1,0 +1,20 @@
+entero  numero, luz, acumula
+caracter pancha
+inicio
+
+	escriba "Imprima los numeros del 1 al 5"
+	llamar nueva_linea
+	Repita
+	escriba "ingrese la opcion deseada"
+	llamar nueva_linea
+
+	lea pancha
+	para numero <-1 hasta 5 haga
+	luz <- 1
+	acumula <- numero * luz
+	llamar nueva_linea
+	escriba luz," por ",numero, " es igual a: ",acumula
+	fin para
+		escriba "Digite caacter N para terminar o cualquier otro caracter para continuar"
+	Hasta (pancha = 'N')
+fin

@@ -1,0 +1,12 @@
+entero numero, saco
+inicio
+	numero <- 1
+	
+	mientras (numero < 11) haga
+	escriba numero
+	llamar nueva_linea
+		numero <- numero+1
+	fin mientras
+
+
+fin

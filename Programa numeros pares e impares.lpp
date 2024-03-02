@@ -1,0 +1,25 @@
+entero a,b,c
+inicio
+	para a<-1 hasta 10 haga
+	llamar nueva_linea
+		si (a mod 2=0) entonces
+		escriba "el numero",a,"es par"
+		sino
+		escriba "el numero",a,"es impar"
+		fin si
+			para a<-4 hasta 7 haga
+			llamar nueva_linea
+			escriba "tabla del ", a
+				si ((a >=4) y (a<=8)) entonces
+					a <- 10
+				sino
+				fin si
+			fin para	
+	
+	
+	
+	
+	
+	
+	fin para
+fin

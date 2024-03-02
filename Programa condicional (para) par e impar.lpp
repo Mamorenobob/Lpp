@@ -1,0 +1,11 @@
+entero numero
+inicio
+	para numero <-1 hasta 20 haga
+		si (numero mod 2=0) entonces
+		escriba "el numero ",numero, "es par"
+		llamar nueva_linea
+		sino
+		escriba "el numero",numero,"es impar "
+		fin si
+	fin para
+fin

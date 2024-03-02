@@ -1,0 +1,51 @@
+ENTERO EDAD
+
+
+INICIO
+ESCRIBA "INGRESE LA EDAD"
+LEA EDAD
+  SI EDAD <=0 ENTONCES
+  ESCRIBA  "NO HA NACIDO"
+  SINO
+   SI EDAD <=3 ENTONCES
+   ESCRIBA "ES UN BEBE"
+   SINO
+     SI EDAD <=10 ENTONCES
+     ESCRIBA "ES UN NIÑO"
+     SINO
+       SI EDAD <=15 ENTONCES
+       ESCRIBA "ES UN ADOLESCENTE"
+       SINO
+         SI EDAD <=17 ENTONCES
+         ESCRIBA "ES UN JOVEN INQUIETO"
+         SINO
+           SI EDAD <=30 ENTONCES
+            ESCRIBA "ERES UN ADULTO"
+            SINO
+              SI EDAD <=50 ENTONCES
+              ESCRIBA "ES MADURO"
+              SINO
+                SI EDAD <=65 ENTONCES
+                ESCRIBA "ES VIEJO"
+                SINO
+                   SI EDAD <=75 ENTONCES
+                   ESCRIBA "ADULTO MAYOR"
+                   SINO
+                     SI EDAD <=90 ENTONCES
+                     ESCRIBA "ANCIANO"
+                     SINO
+                       SI EDAD >=90 ENTONCES
+                       ESCRIBA "TIENE SUERTE DE ESTAR VIVO"
+                       FIN SI
+                     FIN SI
+                   FIN SI
+                FIN SI
+              FIN SI
+            FIN SI
+         FIN SI
+       FIN SI
+     FIN SI
+   FIN SI
+  FIN SI               
+
+FIN

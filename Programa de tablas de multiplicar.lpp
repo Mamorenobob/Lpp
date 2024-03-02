@@ -1,0 +1,39 @@
+entero coco1,coco2,coco3
+inicio
+llamar color_texto (2)
+Escriba "La secuencia es:"
+llamar nueva_linea
+	para coco1 <- 1 hasta 10 haga
+		llamar nueva_linea
+		escriba "TABLA DEL ",coco1
+		llamar nueva_linea
+		para coco2 <- 1 hasta 10 haga
+		coco3 <- coco1 * coco2
+		llamar nueva_linea
+		Escriba "",coco3, " por ",coco2," igual a: ",coco3
+			si coco1 = 3 entonces
+			coco1 <- 8
+			sino
+			fin si
+
+			si (coco2 = 3) entonces
+			escriba ("Estoy en 3 ")
+			sino
+			fin si
+		fin para
+
+
+
+
+
+
+	fin para
+	llamar nueva_linea
+	Escriba "programa terminado"
+
+
+
+
+
+	|
+fin

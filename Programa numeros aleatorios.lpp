@@ -1,0 +1,9 @@
+Entero numero
+inicio
+	llamar Inicializar_Aleatorio ()
+	numero
+	
+	<-aleatorio()*5
+	llamar nueva_linea
+	escriba "el numero generado es",numero
+fin
